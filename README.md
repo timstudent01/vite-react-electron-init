@@ -97,11 +97,11 @@ To package the application for a specific platform:
 ```
 project-root/
 ├── src/
-│   ├── react/        # React application files
-│   ├── electron/     # Electron application files
-│   └── assets/       # Static assets
+│   ├── ui/        # React application files
+│   └── electron/     # Electron application files
+│   
 ├── dist-react/       # Built React files
-├── dist/             # Electron builds
+├── dist-electron/             # Electron builds
 ├── package.json      # Project configuration and scripts
 ├── electron-builder.json # Electron Builder configuration
 └── tsconfig.json     # TypeScript configuration
