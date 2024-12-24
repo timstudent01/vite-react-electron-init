@@ -1,4 +1,4 @@
-# Project Name
+# Vite-React-Electron-Init
 
 This project is a boilerplate setup for a Vite + React + Electron application, supporting cross-platform builds for macOS, Windows, and Linux.
 
@@ -101,7 +101,7 @@ project-root/
 │   └── electron/     # Electron application files
 │   
 ├── dist-react/       # Built React files
-├── dist-electron/             # Electron builds
+├── dist-electron/    # Electron builds
 ├── package.json      # Project configuration and scripts
 ├── electron-builder.json # Electron Builder configuration
 └── tsconfig.json     # TypeScript configuration
